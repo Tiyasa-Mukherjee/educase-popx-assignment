@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 375px;
+  margin: auto;
+  min-height: 100vh;
+  background: white;
+  padding: 24px;
+}
+.bottom-content {
+  margin-top: 55vh;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #6c25ff;
+  color: white;
+}
+
+.secondary-btn {
+  background: #cebafb;
+  color: black;
+}
+
+.disabled-btn {
+  background: #ccc;
+  color: white;
+}
+
+.radio-group {
+  margin: 20px 0;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.bio {
+  margin-top: 20px;
+  color: #444;
+}
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  color: #6c25ff;
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.radio-group p {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.radio-label {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.radio-label input {
+  width: auto;
+  margin-right: 6px;
+}
+
+.bottom-btn {
+  margin-top: 80px;
+}
+.profile-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.profile-box h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.email-text {
+  margin-top: 4px;
+  color: #555;
+  font-size: 14px;
+}
+
+.bio {
+  color: #444;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.divider {
+  margin-top: 24px;
+  border: none;
+  border-top: 1px dashed #ddd;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+input {
+  border: 1px solid #d9d9d9;
+}
+
+.divider {
+  border-top: 1px dashed #ddd;
+}
+
+body {
+  background: #f5f5f5;
+}
