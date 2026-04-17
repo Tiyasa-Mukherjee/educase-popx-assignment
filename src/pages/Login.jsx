@@ -18,9 +18,9 @@ function Login() {
         <input type="password" placeholder="Enter password" />
       </div>
 
-      <button className="disabled-btn" onClick={() => navigate("/profile")}>
-        Login
-      </button>
+      <button className="primary-btn" onClick={() => navigate("/profile")}>
+  Login
+</button>
     </div>
   );
 }
